@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             if (!orientationMessage) {
                 const messageDiv = document.createElement('div');
                 messageDiv.id = 'orientation-message';
-                messageDiv.textContent = 'Di kita lahat pag di landscape, landscape mo pls.';
+                messageDiv.textContent = 'Di kita lahat pag di landscape, landscape mo pls. di din kita pag di naka fullscreen';
                 messageDiv.style.position = 'fixed';
                 messageDiv.style.top = '0';
                 messageDiv.style.left = '0';

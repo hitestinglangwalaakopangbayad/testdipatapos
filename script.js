@@ -24,9 +24,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
                 messageDiv.style.backgroundColor = 'rgba(0, 0, 0, 1)';
                 messageDiv.style.color = 'white';
                 messageDiv.style.textAlign = 'center';
-                messageDiv.style.fontSize = '200px';
+                messageDiv.style.fontSize = '100px';
                 messageDiv.style.padding = '10px';
                 messageDiv.style.zIndex = '1000';
+                
+
+                messageDiv.style.display = 'flex';
+                messageDiv.style.justifyContent = 'center';
+                messageDiv.style.alignItems = 'center';                      
                 document.body.appendChild(messageDiv);
             } else {
                 orientationMessage.style.display = 'block';
